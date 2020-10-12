@@ -20,6 +20,7 @@ git branch --set-upstream-to=origin/master  feature/dev
 ### 将本地仓库与github上的远程仓库关联
 ```
 git remote add origin https://github.com/CcTtry/mathcm.git
+git remote rm origin
 ### 建立关联关联之后，查看建立的关联关系
 git remote -v
 ```
